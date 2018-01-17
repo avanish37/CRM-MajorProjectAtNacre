@@ -672,3 +672,158 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+-- --------------------------------------------------------
+-- Host:                         127.0.0.1
+-- Server version:               5.0.41-community-nt - MySQL Community Edition (GPL)
+-- Server OS:                    Win32
+-- HeidiSQL Version:             9.4.0.5125
+-- --------------------------------------------------------
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+-- Dumping data for table mydb.acdemic_details: ~0 rows (approximately)
+/*!40000 ALTER TABLE `acdemic_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `acdemic_details` ENABLE KEYS */;
+
+-- Dumping data for table mydb.address: ~0 rows (approximately)
+/*!40000 ALTER TABLE `address` DISABLE KEYS */;
+/*!40000 ALTER TABLE `address` ENABLE KEYS */;
+
+-- Dumping data for table mydb.assisment_details: ~0 rows (approximately)
+/*!40000 ALTER TABLE `assisment_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `assisment_details` ENABLE KEYS */;
+
+-- Dumping data for table mydb.assisment_list: ~0 rows (approximately)
+/*!40000 ALTER TABLE `assisment_list` DISABLE KEYS */;
+/*!40000 ALTER TABLE `assisment_list` ENABLE KEYS */;
+
+-- Dumping data for table mydb.batch_details: ~0 rows (approximately)
+/*!40000 ALTER TABLE `batch_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `batch_details` ENABLE KEYS */;
+
+-- Dumping data for table mydb.batch_technology: ~0 rows (approximately)
+/*!40000 ALTER TABLE `batch_technology` DISABLE KEYS */;
+/*!40000 ALTER TABLE `batch_technology` ENABLE KEYS */;
+
+-- Dumping data for table mydb.branch: ~0 rows (approximately)
+/*!40000 ALTER TABLE `branch` DISABLE KEYS */;
+/*!40000 ALTER TABLE `branch` ENABLE KEYS */;
+
+-- Dumping data for table mydb.city: ~0 rows (approximately)
+/*!40000 ALTER TABLE `city` DISABLE KEYS */;
+/*!40000 ALTER TABLE `city` ENABLE KEYS */;
+
+-- Dumping data for table mydb.country: ~0 rows (approximately)
+/*!40000 ALTER TABLE `country` DISABLE KEYS */;
+/*!40000 ALTER TABLE `country` ENABLE KEYS */;
+
+-- Dumping data for table mydb.daily_schedule: ~0 rows (approximately)
+/*!40000 ALTER TABLE `daily_schedule` DISABLE KEYS */;
+/*!40000 ALTER TABLE `daily_schedule` ENABLE KEYS */;
+
+-- Dumping data for table mydb.graduation_type: ~0 rows (approximately)
+/*!40000 ALTER TABLE `graduation_type` DISABLE KEYS */;
+/*!40000 ALTER TABLE `graduation_type` ENABLE KEYS */;
+
+-- Dumping data for table mydb.leave: ~0 rows (approximately)
+/*!40000 ALTER TABLE `leave` DISABLE KEYS */;
+/*!40000 ALTER TABLE `leave` ENABLE KEYS */;
+
+-- Dumping data for table mydb.login: ~0 rows (approximately)
+/*!40000 ALTER TABLE `login` DISABLE KEYS */;
+/*!40000 ALTER TABLE `login` ENABLE KEYS */;
+
+-- Dumping data for table mydb.mentor_batch_allocation: ~0 rows (approximately)
+/*!40000 ALTER TABLE `mentor_batch_allocation` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mentor_batch_allocation` ENABLE KEYS */;
+
+-- Dumping data for table mydb.mentor_details: ~0 rows (approximately)
+/*!40000 ALTER TABLE `mentor_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mentor_details` ENABLE KEYS */;
+
+-- Dumping data for table mydb.mentor_trainee_report: ~0 rows (approximately)
+/*!40000 ALTER TABLE `mentor_trainee_report` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mentor_trainee_report` ENABLE KEYS */;
+
+-- Dumping data for table mydb.person_details: ~0 rows (approximately)
+/*!40000 ALTER TABLE `person_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `person_details` ENABLE KEYS */;
+
+-- Dumping data for table mydb.recruitment_info: ~0 rows (approximately)
+/*!40000 ALTER TABLE `recruitment_info` DISABLE KEYS */;
+/*!40000 ALTER TABLE `recruitment_info` ENABLE KEYS */;
+
+-- Dumping data for table mydb.recruitment_info_status: ~0 rows (approximately)
+/*!40000 ALTER TABLE `recruitment_info_status` DISABLE KEYS */;
+/*!40000 ALTER TABLE `recruitment_info_status` ENABLE KEYS */;
+
+-- Dumping data for table mydb.role: ~0 rows (approximately)
+/*!40000 ALTER TABLE `role` DISABLE KEYS */;
+/*!40000 ALTER TABLE `role` ENABLE KEYS */;
+
+-- Dumping data for table mydb.state: ~0 rows (approximately)
+/*!40000 ALTER TABLE `state` DISABLE KEYS */;
+/*!40000 ALTER TABLE `state` ENABLE KEYS */;
+
+-- Dumping data for table mydb.status: ~20 rows (approximately)
+/*!40000 ALTER TABLE `status` DISABLE KEYS */;
+INSERT INTO `status` (`status_id`, `status_name`) VALUES
+	(1, 'GOOD'),
+	(2, 'AVERAGE'),
+	(3, 'POOR'),
+	(4, 'MENTOR_AVAILABLE'),
+	(5, 'MENTOR_UNAVAILABLE'),
+	(6, 'ABSENT'),
+	(7, 'PRESENT'),
+	(8, 'TRAINEE_AVAILABLE'),
+	(9, 'TRAINEE_UNAVAILABLE'),
+	(10, 'REQUEST_VIEWED'),
+	(11, 'REQUEST_PENDING'),
+	(12, 'REQUEST_UNACCEPTED'),
+	(13, 'REQUEST_ACCEPTED'),
+	(14, 'REPORTED'),
+	(15, 'REPORT_VIEWED_BY_HR'),
+	(16, 'REPORT_WAITING_FOR_MENTOR_RESPONSE'),
+	(17, 'TRAINEE_SHIFTED'),
+	(18, 'TRAINEE_FIRED'),
+	(19, 'TRAINEE_TAKING_LEAVE'),
+	(20, 'REQUESTED');
+/*!40000 ALTER TABLE `status` ENABLE KEYS */;
+
+-- Dumping data for table mydb.trainee_assisement_report: ~0 rows (approximately)
+/*!40000 ALTER TABLE `trainee_assisement_report` DISABLE KEYS */;
+/*!40000 ALTER TABLE `trainee_assisement_report` ENABLE KEYS */;
+
+-- Dumping data for table mydb.trainee_details: ~0 rows (approximately)
+/*!40000 ALTER TABLE `trainee_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `trainee_details` ENABLE KEYS */;
+
+-- Dumping data for table mydb.trainee_feedback: ~0 rows (approximately)
+/*!40000 ALTER TABLE `trainee_feedback` DISABLE KEYS */;
+/*!40000 ALTER TABLE `trainee_feedback` ENABLE KEYS */;
+
+-- Dumping data for table mydb.trainee_request: ~0 rows (approximately)
+/*!40000 ALTER TABLE `trainee_request` DISABLE KEYS */;
+/*!40000 ALTER TABLE `trainee_request` ENABLE KEYS */;
+
+-- Dumping data for table mydb.twelth_sub: ~0 rows (approximately)
+/*!40000 ALTER TABLE `twelth_sub` DISABLE KEYS */;
+/*!40000 ALTER TABLE `twelth_sub` ENABLE KEYS */;
+
+-- Dumping data for table mydb.type_of_degree: ~0 rows (approximately)
+/*!40000 ALTER TABLE `type_of_degree` DISABLE KEYS */;
+/*!40000 ALTER TABLE `type_of_degree` ENABLE KEYS */;
+
+-- Dumping data for table mydb.weekly_schedule: ~0 rows (approximately)
+/*!40000 ALTER TABLE `weekly_schedule` DISABLE KEYS */;
+/*!40000 ALTER TABLE `weekly_schedule` ENABLE KEYS */;
+
+/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+
