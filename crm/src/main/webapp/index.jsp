@@ -1,1 +1,1 @@
-hello abhishekkkkkkk and nikhil gaurav
+<jsp:forward page="coremodule/login.jsp"></jsp:forward>
