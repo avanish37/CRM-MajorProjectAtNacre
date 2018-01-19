@@ -6,6 +6,7 @@ public class Test {
 
 System.out.println("In the project");
 System.out.println("hi..goodmorning");
+System.out.println();
 	}
 
 }
