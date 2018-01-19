@@ -41,7 +41,7 @@ $(function () {
 </head>
 <body>
 <jsp:include page="../commons/mentorHeader.jsp"/>
-<div class="container">
+
 
 <!-- @Author Jeevan 
 Update Asessment Report -->
@@ -49,10 +49,10 @@ Update Asessment Report -->
 <form class="form-inline" action="">
 		<div class="container">
 			<div align="center">
-				<div style="background: #eee; width: 50%;">
+				
 					<h2 style="color: black" align="center">UPDATE ASSESSMENT
 						REPORT</h2>
-				</div>
+				
 			</div>
 			<div class="row">
 				<div class="jumbotron">
@@ -206,7 +206,7 @@ Update Asessment Report -->
 	<!--@Author Jeevan
 	end of update assessment Report code  -->
 	
-</div>
+
 <footer>
 <jsp:include page="../commons/footer.jsp"/>
 </footer>

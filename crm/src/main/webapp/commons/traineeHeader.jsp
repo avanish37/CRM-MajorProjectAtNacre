@@ -192,7 +192,7 @@
         });
 
         $('#notifications').click(function () {
-            return false;       // DO NOTHING WHEN CONTAINER IS CLICKED.
+            return true;       // WHEN CONTAINER IS CLICKED.
         });
     });
 </script>
