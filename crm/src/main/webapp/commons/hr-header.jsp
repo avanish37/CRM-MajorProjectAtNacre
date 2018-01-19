@@ -54,7 +54,7 @@
                     <h3>Notifications</h3>
                      <div style="height:300px;">5555555</div>
                     <div class="seeAll">
-						<a href="recruitmentInfo.jsp">See All</a>
+						<a href="hrNotificationInfo.jsp">See All</a>
 					</div>
                 </div>
             </li>
@@ -161,7 +161,7 @@
         });
 
         $('#notifications').click(function () {
-            return false;       // DO NOTHING WHEN CONTAINER IS CLICKED.
+            return true;       //  WHEN CONTAINER IS CLICKED.
         });
     });
 </script>
