@@ -2,6 +2,6 @@
 
 	<p style="color:#fff">
 		Copyright &copy;  NACRE Software Services. All Rights Reserved | 
-		<strong>Design by SAGUN.</strong>
+		<strong>Design by Batch 46.</strong>
 	</p>
 
