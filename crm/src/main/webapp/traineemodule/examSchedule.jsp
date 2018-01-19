@@ -14,7 +14,8 @@
         <script src="../js/bootstrap.min.js"></script>
         <!-- jQuery Custom Scroller -->
         <script src="../js/concat.min.js"></script>
-<!-- Our Custom CSS -->
+<!-- Our Custom CSS -->      
+
 <link rel="stylesheet" href="../css/footer.css">
 <!-- Bootstrap CSS-->
 <link rel="stylesheet" href="../css/bootstrap.min.css">
