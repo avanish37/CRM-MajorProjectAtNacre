@@ -33,12 +33,12 @@
 <div class="container">
  <div class="panel-group" align="center">
 
-  <div class="panel panel-default" style=" width: 86%;background-color: cyan;">
+  <div class="panel panel-default" style=" width: 86%;background-color: white;">
     <div class="panel-header">	
 		<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<ul class="nav navbar-nav">
-			  
+			 
 			  <li><a href="Graduation.jsp">Graduation Details</a></li>
 			  <li><a href="Post_Graduation.jsp">Post Graduation</a></li>
 		    </ul>
