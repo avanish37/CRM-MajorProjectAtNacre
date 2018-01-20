@@ -29,10 +29,55 @@
 </head>
 <body>
 <jsp:include page="../commons/hr-header.jsp"/>
-<div class="container">
-	
-	ADD COMPANY INFO
+<div align="center"><h2>ADD COMPANY INFORMATION</h2>
 </div>
+<form >
+<div align="center">
+<div style="width: 75%;">
+<div class="panel panel-default">
+     <table class="table" >
+        <tr>
+        <td><b>Company Name :</b></td>
+        <td><input type="text" class="form-control" id="company_name"></td>   
+        </tr>
+        <tr>
+        <td><b>Company Location :</b></td>
+        <td><textarea class="form-control" rows="3" id="location"></textarea></td>
+        </tr>
+        <tr>
+        <td><b>Establishment Year :</b></td>
+        <td><input type="text" class="form-control" id="est_year"></td>
+        </tr>
+        <tr>
+        <td><b>Number of Vacancies :</b></td>
+        <td><input type="text" class="form-control" id="vacancies"></td>
+        </tr>
+        <tr>
+        <td><b>Technology :</b></td>
+        <td><input type="text" class="form-control" id="technology"></td>
+        </tr>
+        <tr>
+        <td><b>Criteria :</b></td>
+        <td><textarea class="form-control" rows="3" id="criteria"></textarea></td>
+        </tr>
+        <tr>
+        <td><b>Batch :</b></td>
+        <td><select multiple class="form-control" id="sel2">
+        <option>Batch 44</option>
+        <option>Batch 45</option>
+        <option>Batch 46</option>
+        <option>Batch 47</option>
+        <option>Batch 48</option>
+      </select></td>
+        </tr>
+     </table>
+     <div align="center">
+     <button type="button" class="btn btn-primary">Save</button>
+     </div>
+</div>
+</div>
+</div>
+</form>
 <footer>
 <jsp:include page="../commons/footer.jsp"/>
 </footer>
