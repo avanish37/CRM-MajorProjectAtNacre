@@ -29,7 +29,7 @@
 <jsp:include page="../commons/mentorHeader.jsp"/>
 <div class="container">
 
-<h2 align="center">MENTOR RECOMENDATION</h2>
+<h2 align="center">MENTOR RECOMMENDATION</h2>
 <table class="table table-bordered" style="border: 2px">
 <tr><td>
 <label>Name:</label></td>
@@ -42,7 +42,7 @@
 <label>Any Reason</label>
 </td></tr>
 <tr><td>
-<label>Recomendation:</label></td>
+<label>Recommendation:</label></td>
 <td>
 <select name="rec" class="form-control" id="sel1" >
         <option>select</option>
