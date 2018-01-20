@@ -16,6 +16,7 @@
 			<li><a href="addTrainees.jsp">Add Trainees</a></li>
 			<li><a href="addMentors.jsp">Add Mentors</a></li>
 			<li><a href="addCompany.jsp">Add Company Info</a></li>
+			<li><a href="assignBatch.jsp">Assign Batch To Mentor</a></li>
 		</ul>
 
 
