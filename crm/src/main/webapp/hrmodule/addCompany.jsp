@@ -29,6 +29,7 @@
 </head>
 <body>
 <jsp:include page="../commons/hr-header.jsp"/>
+<!--Company info by jeevan  -->
 <div align="center"><h2>ADD COMPANY INFORMATION</h2>
 </div>
 <form >
