@@ -34,7 +34,7 @@
 
  <div class="panel-group" align="center">
 
-  <div class="panel panel-default" style=" width: 86%;background-color: cyan;">
+  <div class="panel panel-default" style=" width: 86%;background-color: white;">
     <div class="panel-header">	
 		<nav class="navbar navbar-default">
 		<div class="container-fluid">
