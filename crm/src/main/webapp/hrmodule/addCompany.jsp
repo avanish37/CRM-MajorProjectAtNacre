@@ -75,6 +75,7 @@
      <div align="center">
      <button type="button" class="btn btn-primary">Save</button>
      </div>
+     <!--Company info end by jeevan  -->
 </div>
 </div>
 </div>
