@@ -26,35 +26,11 @@
 <!-- Scrollbar Custom CSS -->
 <link rel="stylesheet" href="../css/mCustomScrollbar.min.css">
 
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-<style>
-    td{
-        font-display: block;
-        font-size: 18px;
-        font-family: monospace;
-        align-content: center;
-    }  
- 
-    .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: cornflowerblue;
-   color: white;
-   text-align: center;
-   font-size: 10px;
-}   
-</style>
-
 </head>
 
 <body>
 	<jsp:include page="../commons/traineeHeader.jsp" />
+	
 	<div class="container">
 
 <h2 align="center" style="font-family: monospace; color: blue;">Your
@@ -184,7 +160,7 @@
 				<!-- <buttons> -->
 				<div class="container" align="center">
 					<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"> TechDetails</button>
-					<br> <br><br> <br>
+					<br> <br>
 				</div>
 			</div>
 		<!-- </form>
@@ -200,7 +176,7 @@
     <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h2 class="modal-title" align="center" style="font-family: monospace; color: blue;">Edit Your Technical Details</h2>
+          <h2 class="modal-title" align="center" style="font-family: monospace;">Edit Your Technical Details</h2>
         </div>
         <div class="modal-body">
         
