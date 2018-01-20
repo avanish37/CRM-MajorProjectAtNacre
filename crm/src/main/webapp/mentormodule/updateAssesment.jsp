@@ -12,7 +12,7 @@
         <script src="../js/jquery-1.12.0.min.js"></script>
         <!-- Bootstrap Js  -->
         <script src="../js/bootstrap.min.js"></script>
-        <!-- jQuery Custom Scroller -->
+        <!-- jQuery Custom Scroller --> 
         <script src="../js/concat.min.js"></script>
 <!-- Our Custom CSS -->
 <link rel="stylesheet" href="../css/footer.css">

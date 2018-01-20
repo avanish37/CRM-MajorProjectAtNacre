@@ -31,7 +31,27 @@
 <jsp:include page="../commons/traineeHeader.jsp"/>
 <div class="container">
 
-OTHER REQUEST
+<center><h3 style="color: rgb(65, 86, 102)">REQUEST FOR OTHER REASONS</h3></center>
+
+<form id="contactForm" method="post" class="form-horizontal">
+ <div class="form-group">
+        <label class="col-md-3 control-label"><b>Reason/Description<br><img alt="" src="../images/redArrow.jpg" height="50px" width="50px"></b></label>
+        <div class="col-md-6">
+            <textarea class="form-control" name="content" rows="5"></textarea>
+        </div>
+    </div>
+    <!-- #messages is where the messages are placed inside -->
+    <div class="form-group">
+        <div class="col-md-9 col-md-offset-3">
+            <div id="messages"></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-9 col-md-offset-3">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </div>
+</form>
 
 </div>
 <footer>

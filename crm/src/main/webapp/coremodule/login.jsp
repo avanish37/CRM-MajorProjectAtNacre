@@ -37,13 +37,40 @@
 			<div class="modal-footer">
 			<button type="submit" class="btn btn-success btn-primary">Sign In</button>
 			</div>
-			<a href=""><i>FORGOT PASSWORD</i></a>
+			<a href="#forgot" data-toggle="modal" data-target="#forgot">FORGOT PASSWORD</a>
 				</div>
 			</form>
 			</div>
 			
 		</div>
 	
+	 	<!-- pop up to forgot password -->
+<!-- <div class="modal fade" id="forgot">
+	<div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title">Change Password</h4>
+        </div>
+        <form action="" method="post" >
+        
+        <div class="modal-body">
+          <div class="form-group">
+    		<label for="userMail">Enter Your Email</label>
+    		<input class="form-control" id="userMail" name="userMail" placeholder="Enter YOUR E-MAIL" type="email" required>
+  		  </div>
+		 
+        </div>
+        <div class="modal-footer">
+          <a href="#" data-dismiss="modal" class="btn">Close</a>
+          <button type="submit" class="btn btn-success btn-primary">SUBMIT</button>
+        </div>
+        </form>
+      </div>
+    </div>
+</div> -->
+
+
 </body>
 
-</html>
+</html>		
