@@ -9,7 +9,7 @@
  .blank_row
 {
     height: 10px !important; /* overwrites any other rules */
-    background-color: #FFFFFF;
+    /*  background-color: #FFFFFF;  */
 }
  .blank_td
 {
@@ -50,7 +50,7 @@
 <div class="container">
 	<form action="">
 <div class="container">
-  <h2 align="center">Assigning Mentors To Batch</h2>
+  <h2 align="center">Assigning Batch To Mentors</h2>
    <p></p>             
   <table class="borderless" align="center">
   
@@ -84,14 +84,14 @@
 <td>Mentor:</td>
 
 <td><select name="Mentors" class="form-control show-tick" data-width="55%" data-style="btn btn-info" multiple title="Choose only four mentors..." data-max-options="4">
-  <option>A</option>
-  <option>B</option>
-  <option>C</option>
-  <option>D</option>
-  <option>E</option>
-  <option>F</option>
-  <option>G</option>
-  <option>H</option>
+  <option>Abhishek sir</option>
+  <option>Nikhil sir</option>
+  <option>Sibaji sir</option>
+  <option>Aloka madam</option>
+  <option>Srivani madam</option>
+  <option>Swarna madam</option>
+  <option>Jagannadh sir</option>
+  <option>Prakash sir</option>
   
 </select>
 </td>
