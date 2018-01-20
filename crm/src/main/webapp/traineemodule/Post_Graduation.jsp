@@ -1,4 +1,3 @@
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -41,13 +40,13 @@
 		<div class="container-fluid">
 			<ul class="nav navbar-nav">
 			  <li><a href="Graduation.jsp">Graduation Details</a></li>
-			  <li><a href="Post_Graduation.jsp">Post Graduation</a></li>
+			  <li class="active"><a href="Post_Graduation.jsp">Post Graduation</a></li>
 		    </ul>
 		</div>
 		</nav>
 		<div class="panel-body" style="width:50%;">
 		  <form action="Result" method="post">
-	<p style="font:small-caption;font-size: large;"><font style="color: green;"><b>Graduation Details</b></font></p>
+	<p style="font:small-caption;font-size: large;"><b> <font style="color: green;">Post Graduation Details</font></b></p>
 	
 			 <div class="form-group">	
 			  <select class="form-control" id="graduationType">
@@ -110,9 +109,10 @@
 				<option>Other</option>
 			  </select>
 			</div> 
-				
+		
+		
 				<div align="center">			
-				<button type="Reset" class="btn btn-success  " style="width : 150px ">Reset</button>
+					<button type="reset" class="btn btn-success  " style="width : 150px ">Reset</button>
 					<button type="submit" class="btn btn-success  " style="width : 150px ">Save</button>
 					<button type="submit" class="btn btn-primary  " style="width : 150px ">Update</button>
 				</div>

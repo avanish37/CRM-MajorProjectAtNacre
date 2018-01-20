@@ -1,4 +1,3 @@
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -32,7 +31,6 @@
 <body>
 <jsp:include page="../commons/traineeHeader.jsp"/>
 <div class="container">
-
  <div class="panel-group" align="center">
 
   <div class="panel panel-default" style=" width: 86%;background-color: cyan;">
@@ -40,6 +38,7 @@
 		<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<ul class="nav navbar-nav">
+			  
 			  <li><a href="Graduation.jsp">Graduation Details</a></li>
 			  <li><a href="Post_Graduation.jsp">Post Graduation</a></li>
 		    </ul>
