@@ -29,8 +29,33 @@
 <jsp:include page="../commons/mentorHeader.jsp"/>
 <div class="container">
 
-MENTOR RECOMENDATION
-
+<h2 align="center">MENTOR RECOMMENDATION</h2>
+<table class="table table-bordered" style="border: 2px">
+<tr><td>
+<label>Name:</label></td>
+<td>
+<label>Mayank</label>
+</td></tr>
+<tr><td>
+<label>Reason:</label></td>
+<td>
+<label>Any Reason</label>
+</td></tr>
+<tr><td>
+<label>Recommendation:</label></td>
+<td>
+<select name="rec" class="form-control" id="sel1" >
+        <option>select</option>
+        <option name="rec">Shift to next batch</option>
+        <option name="rec">Terminate</option>
+        <option name="rec">Special Focus</option>
+      </select>
+</td>
+</tr>
+</table>
+<div>
+<button style="font-size: 16px">Submit</button>
+</div>
 </div>
 <footer>
 <jsp:include page="../commons/footer.jsp"/>
