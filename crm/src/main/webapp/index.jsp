@@ -18,8 +18,8 @@
 	<!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min1.css" rel="stylesheet">
     <!-- Bootstrap Js  -->
-        <script src="../js/bootstrap.min.js"></script>
-
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-1.12.0.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
@@ -28,5 +28,5 @@
 </body>
 </html>
 
-<!-- this is for testing -->
+
 
