@@ -34,23 +34,32 @@
 <tr><td>
 <label>Name</label></td>
 <td>
-<label>Mayank</label>
-</td></tr>
-<tr><td>
-<label>Reason</label></td>
+<label>Reason</label>
+</td>
 <td>
-<label>Any Reason</label>
-</td></tr>
-<tr><td>
-<label>Recommendation</label></td>
+<label>Recommendation</label>
+</td>
+<tr>
+<td>Mayank</td>
+<td>Any Reason</td>
 <td>
 <select name="rec" class="form-control" id="sel1" >
         <option>select</option>
         <option name="rec">Shift to next batch</option>
         <option name="rec">Terminate</option>
         <option name="rec">Special Focus</option>
-</select>
-</td>
+</select></td>
+</tr>
+<tr>
+<td>Manjeet</td>
+<td>Any Reason</td>
+<td>
+<select name="rec" class="form-control" id="sel1" >
+        <option>select</option>
+        <option name="rec">Shift to next batch</option>
+        <option name="rec">Terminate</option>
+        <option name="rec">Special Focus</option>
+</select></td>
 </tr>
 </table>
 <div>
