@@ -24,7 +24,6 @@
 			<li> <a href="#viewSchedule"
 				data-toggle="collapse" aria-expanded="false">VIEW SCHEDULE</a>
 				<ul class="collapse list-unstyled" id="viewSchedule">
-					<li><a href="todaySchedule.jsp">Today's Schedule</a></li>
 					<li><a href="weeklySchedule.jsp">Weekly Schedule</a></li>
 					<li><a href="examSchedule.jsp">Exam Schedule</a></li>
 				</ul></li>

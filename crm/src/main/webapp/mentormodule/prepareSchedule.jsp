@@ -124,28 +124,28 @@ used to vertically center elements, may need modification if you're not using de
 		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
 		rel='stylesheet' type='text/css'>
 
-	<div class="container">
+	<div class="container" style="width: 619px; ">
 		<div class="row">
 
-			<center>
+			<!-- <center>
 				<h1>WEEKLY SCHEDULE</h1>
-			</center>
+			</center> -->
 
-			<div class="col-md-10 col-md-offset-1" style="width: 532px;margin-left:220px;">
+			<div  align="center">
 
 				<div class="panel panel-default panel-table" >
-					<div class="panel-heading"">
+					<div class="panel-heading">
 						<div class="row">
-							<div class="col col-xs-6" style="width: 500px;  ">
+							<div >
 								<h6 class="panel-title">
-									<center>Weekly Schedule</center>
+									<center><h2>WEEKLY SCHEDULE</h2></center>
 								</h6>
 							</div>
 						</div>
 					</div>
 					<div class="panel-body" style="width: 617px;">
 						<table class="table table-striped table-bordered table-list"
-							style="width: 500px;">
+>
 							<thead>
 								<tr>
 									<th>Week List</th>
@@ -157,7 +157,7 @@ used to vertically center elements, may need modification if you're not using de
 							</thead>
 							 <tbody id="myTable">
 								<tr>
-									<td style="width: 64px;"><center>Week 1
+									<td style="width: 64px;"><center><b>Week 1</b>
 									<label>(22-Jan To 28-Jan)</label>
 									</center></td>
                                     <td></td>
@@ -171,7 +171,7 @@ used to vertically center elements, may need modification if you're not using de
 										</center>
 										</p></td>
 								<tr>
-									<td style="width: 87px;"><center>Week 2
+									<td style="width: 87px;"><center><b>Week 2</b>
 									<label>(29-Jan To 04-Feb)</label>
 									</center></td>
                                        <td></td>
@@ -186,7 +186,7 @@ used to vertically center elements, may need modification if you're not using de
 										</p></td>
 								</tr>
 								<tr>
-									<td><center>Week 3
+									<td><center><b>Week 3</b>
 									<label>(05-Feb To 11-Feb)</label>
 									</center></td>
                                      <td></td>
@@ -201,7 +201,7 @@ used to vertically center elements, may need modification if you're not using de
 										</p></td>
 								</tr>
 								<tr>
-									<td><center>Week 4
+									<td><center><b>Week 4</b>
 									<label>(12-Feb To 18-Feb)</label>
 									</center></td>
 									 <td></td>
@@ -217,7 +217,7 @@ used to vertically center elements, may need modification if you're not using de
 										</p></td>
 								</tr>
 								<tr>
-									<td><center>Week 5
+									<td><center><b>Week 5</b>
 									<label>(19-Feb To 25-Feb)</label>
 									</center></td>
                                       <td></td>
@@ -231,7 +231,7 @@ used to vertically center elements, may need modification if you're not using de
 										</p></td>
 								</tr>
 								<tr>
-									<td><center>Week 6
+									<td><center><b>Week 6</b>
 									<label>(26-Feb To 04-Mar)</label>
 									</center></td>
 									 <td></td>
@@ -246,7 +246,7 @@ used to vertically center elements, may need modification if you're not using de
 										</p></td>
 								</tr>
 								<tr>
-									<td><center>Week 7
+									<td><center><b>Week 7</b>
 									<label>(05-Mar To 11-Mar)</label>
 									</center></td>
 									 <td></td>
@@ -261,7 +261,7 @@ used to vertically center elements, may need modification if you're not using de
 										</p></td>
 								</tr>
 								<tr>
-									<td><center>Week 8
+									<td><center><b>Week 8</b>
 									<label>(12-Mar To 18-Mar)</label>
 									</center></td>
 									 <td></td>
@@ -277,7 +277,7 @@ used to vertically center elements, may need modification if you're not using de
 
 								</tr>
 								<tr>
-									<td><center>Week 9
+									<td><center><b>Week 9</b>
 									<label>(19-Mar To 25-Mar)</label>
 									</center></td>
 									 <td></td>
@@ -292,7 +292,7 @@ used to vertically center elements, may need modification if you're not using de
 										</p></td>
 								</tr>
 								<tr>
-									<td><center>Week 10
+									<td><center><b>Week 10</b>
 									<label>(26-Mar To 01-Apr)</label>
 									</center></td>
 									 <td></td>
@@ -309,7 +309,7 @@ used to vertically center elements, may need modification if you're not using de
 
 								</tr>
 								<tr>
-									<td><center>Week 11
+									<td><center><b>Week 11</b>
 									<label>(02-Apr To 08-Apr)</label>
 									</center></td>
 									 <td></td>
@@ -326,7 +326,7 @@ used to vertically center elements, may need modification if you're not using de
 
 								</tr>
 								<tr>
-									<td><center>Week 12
+									<td><center><b>Week 12</b>
 									<label>(09-Apr To 15-Apr)</label>
 									</center></td>
 									 <td></td>
@@ -343,7 +343,7 @@ used to vertically center elements, may need modification if you're not using de
 
 								</tr>
 								<tr>
-									<td><center>Week 13
+									<td><center><b>Week 13</b>
 									<label>(16-Apr To 22-Apr)</label>
 									</center></td>
 									 <td></td>
@@ -360,7 +360,7 @@ used to vertically center elements, may need modification if you're not using de
 
 								</tr>
 								<tr>
-									<td><center>Week 14
+									<td><center><b>Week 14</b>
 									<label>(23-Apr To 29-Apr)</label>
 									</center></td>
 									 <td></td>
@@ -377,7 +377,7 @@ used to vertically center elements, may need modification if you're not using de
 
 								</tr>
 								<tr>
-									<td><center>Week 15
+									<td><center><b>Week 15</b>
 									<label>(30-Apr To 06-May)</label>
 									</center></td>
 									 <td></td>
@@ -394,7 +394,7 @@ used to vertically center elements, may need modification if you're not using de
 
 								</tr>
 								<tr>
-									<td><center>Week 16
+									<td><center><b>Week 16</b>
 									<label>(07-May To 13-May)</label>
 									</center></td>
 									 <td></td>
