@@ -23,7 +23,6 @@
 <!-- Scrollbar Custom CSS -->
 <link rel="stylesheet" href="../css/mCustomScrollbar.min.css">
 
-
 </head>
 
 <body>
@@ -31,10 +30,10 @@
 	<div class="container">
 
 		<div class="table-responsive">
-			<table class="table">
+			<table class="table" id="table1">
 				<thead>
 					<tr>
-					
+
 						<th>Assessment Id</th>
 						<th>D.O.A</th>
 						<th>Subject</th>
@@ -43,7 +42,7 @@
 						<th>Time</th>
 						<th>Duration</th>
 						<th><button id="add-row" class="glyphicon glyphicon-plus"
-								data-toggle="modal" data-target="#edit" style="width: 68px;"></button></th>
+								data-toggle="modal" data-target="#add" style="width: 68px;"></button></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -56,8 +55,9 @@
 						<td>100</td>
 						<td>3:00 PM</td>
 						<td>2 Hours</td>
-						<td><button id="edit-row" class="glyphicon glyphicon-pencil"></button>&nbsp;&nbsp;
-							<button class="glyphicon glyphicon-floppy-disk"></button></td>
+						<td><button id="edit-row" class="glyphicon glyphicon-pencil"
+							data-toggle="modal" data-target="#edit" style="width: 68px;"></button>&nbsp;&nbsp;
+							</td>
 					</tr>
 					<tr>
 						<td>2</td>
@@ -67,8 +67,9 @@
 						<td>100</td>
 						<td>2:00 PM</td>
 						<td>2 Hours</td>
-						<td><button id="edit-row" class="glyphicon glyphicon-pencil"></button>&nbsp;&nbsp;
-							<button class="glyphicon glyphicon-floppy-disk"></button></td>
+						<td><button id="edit-row" class="glyphicon glyphicon-pencil"
+								data-toggle="modal" data-target="#edit" style="width: 68px;"></button>&nbsp;&nbsp;
+						</td>
 					</tr>
 
 				</tbody>
@@ -77,7 +78,7 @@
 	</div>
 
 	<!-- Add Assessment- Modal -->
-	<div class="modal fade" id="edit" tabindex="-1" role="dialog"
+	<div class="modal fade" id="add" tabindex="-1" role="dialog"
 		aria-labelledby="edit" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -120,8 +121,7 @@
 								<tr>
 									<td><b>Time </b></td>
 									<td><input type="text" id="time" class="form-control"
-											placeholder="Enter Time">
-								</td>
+										placeholder="Enter Time"></td>
 								</tr>
 								<tr>
 									<td><b>Duration</b></td>
@@ -149,6 +149,81 @@
 	</div>
 
 	<!-- End Modal -->
+
+
+<!-- Edit Assessment- Modal -->
+	<div class="modal fade" id="edit" tabindex="-1" role="dialog"
+		aria-labelledby="edit" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+					</button>
+					<h4 class="modal-title custom_align" id="Heading">
+						<span style="text-align: center">Update Assessment</span>
+					</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<table class="table table-striped table-bordered table-list">
+
+
+							<tbody>
+								<tr>
+									<td><b>D.O.A</b></td>
+									<td><input type="date" class="form-control" id="doa"
+										placeholder="Enter Date"></td>
+								</tr>
+
+								<tr>
+									<td><b>Subject </b></td>
+									<td><input type="text" class="form-control" id="sub"
+										placeholder="Enter Subject Name"></td>
+								</tr>
+								<tr>
+									<td><b>Type</b></td>
+									<td><input type="text" class="form-control" id="type"
+										placeholder="Enter Type (Objective/Descriptive)"></td>
+								</tr>
+								<tr>
+									<td><b>Full Marks </b></td>
+									<td><input type="number" class="form-control" id="fm"
+										placeholder="Enter Full Marks"></td>
+								</tr>
+								<tr>
+									<td><b>Time </b></td>
+									<td><input type="text" id="time" class="form-control"
+										placeholder="Enter Time"></td>
+								</tr>
+								<tr>
+									<td><b>Duration</b></td>
+									<td><input type="text" class="form-control" id="fm"
+										placeholder="Enter Full Marks"></td>
+								</tr>
+
+								<tr>
+									<td colspan="2" align="center">
+										<button type="button" class="btn btn-primary">Save</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+		<!-- /.modal-content -->
+		<!-- /.modal-dialog -->
+	</div>
+
+	<!-- End Modal -->
+
 
 	<footer>
 		<jsp:include page="../commons/footer.jsp" />
