@@ -3,9 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link
-	href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
-	rel="stylesheet" id="bootstrap-css">
+
 
 <!-- this is for editing data -->	
 
@@ -63,12 +61,9 @@ used to vertically center elements, may need modification if you're not using de
 	line-height: 34px;
 }
 </style>
-<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="functions.js"></script>
 
- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!--  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>  -->
 
+ 
  <title>Add Trainee</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -86,6 +81,7 @@ used to vertically center elements, may need modification if you're not using de
 <link rel="stylesheet" href="../css/bootstrap.min.css">
         <!-- Our Custom CSS -->
         <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/notification.css">
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet" href="../css/mCustomScrollbar.min.css">
         
@@ -115,7 +111,7 @@ function myFunction() {
 </head>
 
 <body onload="onChange();">
-<jsp:include page="../commons/mentorHeader.jsp"/>
+<jsp:include page="../commons/hr-header.jsp"/>
 	<link
 		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
 		rel='stylesheet' type='text/css'>
