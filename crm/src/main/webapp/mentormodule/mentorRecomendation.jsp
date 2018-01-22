@@ -30,7 +30,7 @@
 <div class="container">
 
 <h2 align="center">MENTOR RECOMMENDATION</h2>
-<table class="table table-bordered" style="border: 2px">
+<table class="table table-bordered">
 <tr><td>
 <label>Name</label></td>
 <td>
@@ -49,7 +49,7 @@
         <option name="rec">Shift to next batch</option>
         <option name="rec">Terminate</option>
         <option name="rec">Special Focus</option>
-      </select>
+</select>
 </td>
 </tr>
 </table>
