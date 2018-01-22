@@ -177,10 +177,15 @@ used to vertically center elements, may need modification if you're not using de
 									<label>School/College</label>
 									</td>
 									 <td></td></tr>
+									 <tr>
+									<td>
+									<label>Address</label>
+									</td>
+									 <td></td></tr>
 									
 								<tr>
 									<td>
-									<label>Marks</label>
+									<label>Percentage</label>
 									</td>
                                       <td></td>
 									</tr>
@@ -240,6 +245,7 @@ used to vertically center elements, may need modification if you're not using de
     				<option value="Telugu">
     				<option value="Tamil">
    				</datalist>	
+   				</td>
   	 </tr>
          <tr>
         <td><b>Year</b></td>
@@ -251,6 +257,7 @@ used to vertically center elements, may need modification if you're not using de
 				    <option value="2014">
 				    
 				  </datalist>
+				  </td>
 					 </tr>
         <tr>
         <td><b>School/College </b></td>
@@ -258,9 +265,15 @@ used to vertically center elements, may need modification if you're not using de
         </tr>
         <tr>
           </tr>
+          <tr>
+        <td><b>Address </b></td>
+        <td>
+        <textarea rows="2" cols="20" name="address" class="form-control" placeholder="Enter Address"></textarea>
+        </td>
+  	 </tr>
         <tr>
-        <td><b>Marks</b></td>
-        <td><input type="text" class="form-control" id="pin"  placeholder="Enter Marks"></td>   
+        <td><b>Percentage</b></td>
+        <td><input type="text" class="form-control" id="pin"  placeholder="Enter Percentage"></td>   
         </tr>
      <tr><td colspan="2" align="center">
      

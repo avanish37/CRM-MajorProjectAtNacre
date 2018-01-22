@@ -34,9 +34,7 @@ function edit_row(no)
 	document.getElementById("edit_button"+no).style.display="none";
 	document.getElementById("save_button"+no).style.display="block";
     var des=document.getElementById("des"+no);
-	var des_data=des.innerHTML;
-	des.innerHTML="<textarea cols='20' rows='1' id=' des_text"+no+"' value='"+des_data+"'>";
-}
+	}
 
 function save_row(no)
 {
@@ -222,10 +220,10 @@ used to vertically center elements, may need modification if you're not using de
         	 <input list="boards" name="board" class="form-control" placeholder="X Board">
   				<datalist id="boards">
   
-			    <option value="CBSC">
-			    <option value="SSC">
-			    <option value="SCHOOL">
-			    <option value="IBSC">
+			    <option value="CBSC"></option>
+			    <option value="SSC"></option>
+			    <option value="SCHOOL"></option>
+			    <option value="IBSC"></option>
 			    
   				</datalist>
 		</td>   
@@ -235,32 +233,34 @@ used to vertically center elements, may need modification if you're not using de
         <td><b>Medium </b></td>
         <td><input list="medium" name="medium" class="form-control" placeholder="Medium">
   				<datalist id="medium">
-    				<option value="English">
-    				<option value="Hindhi">
-    				<option value="Telugu">
-    				<option value="Tamil">
+    				<option value="English"></option>
+    				<option value="Hindhi"></option>
+    				<option value="Telugu"></option>
+    				<option value="Tamil"></option>
    				</datalist>	
+   				</td>
   	 </tr>
          <tr>
         <td><b>Year</b></td>
         <td><input list="year" name="year" class="form-control" placeholder="Year">
 				  <datalist id="year">
-				    <option value="2011">
-				    <option value="2012">
-				    <option value="2013">
-				    <option value="2014">
+				    <option value="2011"></option>
+				    <option value="2012"></option>
+				    <option value="2013"></option>
+				    <option value="2014"></option>
 				    
 				  </datalist>
+				  </td>
 					 </tr>
         <tr>
         <td><b>School </b></td>
-        <td><input type="text" class="form-control" id="dob"  placeholder="Enter School"></td>
+        <td><input type="text" class="form-control"  placeholder="Enter School"></td>
         </tr>
         <tr>
           </tr>
         <tr>
-        <td><b>Marks</b></td>
-        <td><input type="text" class="form-control" id="pin"  placeholder="Enter Marks"></td>   
+        <td><b>Percentage</b></td>
+        <td><input type="text" class="form-control"   placeholder="Enter Marks"></td>   
         </tr>
      <tr><td colspan="2" align="center">
      

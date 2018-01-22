@@ -177,6 +177,11 @@ used to vertically center elements, may need modification if you're not using de
 									<label>University</label>
 									</td>
 									 <td></td></tr>
+									<tr>
+									<td>
+									<label>Address</label>
+									</td>
+									 <td></td></tr>
 									
 								<tr>
 									<td>
@@ -228,9 +233,9 @@ used to vertically center elements, may need modification if you're not using de
         	 <input list="graduation" name="grad" class="form-control" placeholder="Graduation">
   				<datalist id="graduation">
   
-			    <option value="B.Tech">
-			    <option value="Bsc">
-			    <option value="BCA">
+			    <option value="B.Tech"></option>
+			    <option value="Bsc"></option>
+			    <option value="BCA"></option>
 			    
   				</datalist>
 		</td>   
@@ -240,48 +245,57 @@ used to vertically center elements, may need modification if you're not using de
         <td><b>Specialization </b></td>
         <td><input list="specialization" name="Specialization" class="form-control" placeholder="Specialization">
   				<datalist id="specialization">
-    				<option value="ECE">
-    				<option value="CSE">
-    				<option value="EEE">
-    				<option value="COMPUTERS">
+    				<option value="ECE"></option>
+    				<option value="CSE"></option>
+    				<option value="EEE"></option>
+    				<option value="COMPUTERS"></option>
    				</datalist>	
+   				</td>
   	 </tr>
   	 <tr>
         <td><b>College </b></td>
         <td><input list="college" name="College" class="form-control" placeholder="College">
   				<datalist id="college">
-    				<option value="Jits">
-    				<option value="Bits">
-    				<option value="CBIT">
-    				<option value="VBIT">
+    				<option value="Jits"></option>
+    				<option value="Bits"></option>
+    				<option value="CBIT"></option>
+    				<option value="VBIT"></option>
    				</datalist>	
+   				</td>
   	 </tr>
   	 <tr>
         <td><b>University </b></td>
         <td><input list="university" name="University" class="form-control" placeholder="University">
   				<datalist id="university">
-    				<option value="JNTUH">
-    				<option value="KU">
-    				<option value="JNTUK">
-    				<option value="JNTUA">
+    				<option value="JNTUH"></option>
+    				<option value="KU"></option>
+    				<option value="JNTUK"></option>
+    				<option value="JNTUA"></option>
    				</datalist>	
+   				</td>
   	 </tr>
-    
+    <tr>
+        <td><b>Address </b></td>
+        <td>
+        <textarea rows="2" cols="20" name="address" class="form-control" placeholder="Enter Address"></textarea>
+        </td>
+  	 </tr>
          <tr>
         <td><b>Year</b></td>
         <td><input list="year" name="year" class="form-control" placeholder="Year">
 				  <datalist id="year">
-				    <option value="2011">
-				    <option value="2012">
-				    <option value="2013">
-				    <option value="2014">
+				    <option value="2011"></option>
+				    <option value="2012"></option>
+				    <option value="2013"></option>
+				    <option value="2014"></option>
 				    
 				  </datalist>
+				  </td>
 					 </tr>
         
         <tr>
-        <td><b>Marks</b></td>
-        <td><input type="text" class="form-control" id="pin"  placeholder="Enter Marks"></td>   
+        <td><b>Percentage</b></td>
+        <td><input type="text" class="form-control"   placeholder="Enter Percentage"></td>   
         </tr>
      <tr><td colspan="2" align="center">
      
