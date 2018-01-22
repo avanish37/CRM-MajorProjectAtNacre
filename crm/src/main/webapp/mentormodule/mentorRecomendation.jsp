@@ -32,17 +32,17 @@
 <h2 align="center">MENTOR RECOMMENDATION</h2>
 <table class="table table-bordered" style="border: 2px">
 <tr><td>
-<label>Name:</label></td>
+<label>Name</label></td>
 <td>
 <label>Mayank</label>
 </td></tr>
 <tr><td>
-<label>Reason:</label></td>
+<label>Reason</label></td>
 <td>
 <label>Any Reason</label>
 </td></tr>
 <tr><td>
-<label>Recommendation:</label></td>
+<label>Recommendation</label></td>
 <td>
 <select name="rec" class="form-control" id="sel1" >
         <option>select</option>
