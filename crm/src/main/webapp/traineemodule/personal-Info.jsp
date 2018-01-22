@@ -100,10 +100,7 @@ used to vertically center elements, may need modification if you're not using de
 	line-height: 34px;
 }
 </style>
-<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="functions.js"></script>
 
- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 
 </head>

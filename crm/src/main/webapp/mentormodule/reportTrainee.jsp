@@ -137,8 +137,8 @@ used to vertically center elements, may need modification if you're not using de
 								<tr>
 									<td style="width: 64px;"><center>Aaishvarya 
 								</center></td>
-                                    <td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									<td >
@@ -150,8 +150,8 @@ used to vertically center elements, may need modification if you're not using de
 									<td style="width: 87px;"><center>Archana
 									
 									</center></td>
-                                    <td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
                                     <td><textarea rows="1" cols="20"></textarea>
                                     <td >
@@ -163,8 +163,8 @@ used to vertically center elements, may need modification if you're not using de
 								<tr>
 									<td><center>Avanish
 									</center></td>
-                                    <td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
                                     <td><textarea rows="1" cols="20"></textarea>
                                     <td >
@@ -176,8 +176,8 @@ used to vertically center elements, may need modification if you're not using de
 								<tr>
 									<td><center>Durgesh
 									</center></td>
-									<td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+									<td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea>
 									<td >
@@ -189,8 +189,8 @@ used to vertically center elements, may need modification if you're not using de
 								<tr>
 									<td><center>Gaurav
 									</center></td>
-                                    <td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -203,8 +203,8 @@ used to vertically center elements, may need modification if you're not using de
 								<tr>
 									<td><center>Garvit
 									</center></td>
-									<td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+									<td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -216,8 +216,8 @@ used to vertically center elements, may need modification if you're not using de
                                     				</tr>
 								<tr>
 									<td><center>Munwar</center></td>
-									<td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+									<td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -227,8 +227,8 @@ used to vertically center elements, may need modification if you're not using de
                                     	</tr>
 								<tr>
 									<td><center>Tayabba</center></td>
-									<td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+									<td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -239,8 +239,8 @@ used to vertically center elements, may need modification if you're not using de
 								</tr>
 								<tr>
 									<td><center>Monika</center></td>
-									<td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+									<td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -251,8 +251,8 @@ used to vertically center elements, may need modification if you're not using de
 								</tr>
 								<tr>
 									<td><center>Rachita</center></td>
-                                   <td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+                                   <td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -262,8 +262,8 @@ used to vertically center elements, may need modification if you're not using de
                                     								</tr>
 								<tr>
 									<td><center>Navya</center></td>
-									<td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+									<td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -274,8 +274,8 @@ used to vertically center elements, may need modification if you're not using de
 								</tr>
 								<tr>
 									<td><center>Navneet</center></td>
-									<td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+									<td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -286,8 +286,8 @@ used to vertically center elements, may need modification if you're not using de
 								</tr>
 								<tr>
 									<td><center>Yakaih</center></td>
-									<td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+									<td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -298,8 +298,8 @@ used to vertically center elements, may need modification if you're not using de
 								</tr>
 								<tr>
 									<td><center>Mayank</center></td>
-									<td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+									<td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -309,8 +309,8 @@ used to vertically center elements, may need modification if you're not using de
                                     								</tr>
 								<tr>
 									<td><center>Gaurav</center></td>
-									<td><center><input type="radio"></center>    </td>
-                                    <td><center><input type="radio"></center>    </td>
+									<td><center><input type="checkbox"></center>    </td>
+                                    <td><center><input type="checkbox"></center>    </td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
@@ -320,8 +320,8 @@ used to vertically center elements, may need modification if you're not using de
                                     								</tr>
 								<tr>
 									<td><center>dc</center></td>
-									<td><center><input type="radio"></center></td>
-                                    <td><center><input type="radio"></center></td>
+									<td><center><input type="checkbox"></center></td>
+                                    <td><center><input type="checkbox"></center></td>
 									
 									<td><textarea rows="1" cols="20"></textarea></td>
 									
