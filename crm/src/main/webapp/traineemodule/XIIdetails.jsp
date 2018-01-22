@@ -24,9 +24,6 @@
           <link rel="stylesheet" href="../css/notification.css">
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet" href="../css/mCustomScrollbar.min.css">
-         <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
-		rel='stylesheet' type='text/css'>
-         -->
         <script type="text/javascript">
 function edit_row(no)
 {
@@ -113,6 +110,9 @@ used to vertically center elements, may need modification if you're not using de
 
 <body>
 <jsp:include page="../commons/traineeHeader.jsp"/>
+<link
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
+		rel='stylesheet' type='text/css'>
 
 	<div class="container">
 		<div class="row">
@@ -124,8 +124,8 @@ used to vertically center elements, may need modification if you're not using de
 		<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<ul class="nav navbar-nav">
-			<li class="active"><a href="academic-info.jsp">X Details</a></li>
-			  <li><a href="XIIdetails.jsp" >XII Details</a></li>
+			<li ><a href="academic-info.jsp">X Details</a></li>
+			  <li class="active"><a href="XIIdetails.jsp" >XII Details</a></li>
 		    <li><a href="Graduation.jsp">Graduation Details</a></li>
 			  <li><a href="Post_Graduation.jsp">Post Graduation</a></li>
 		    </ul>
@@ -143,7 +143,7 @@ used to vertically center elements, may need modification if you're not using de
 
 						<table class="table">
 						<thead>
-							<th><h3 align="right">X DETAILS</h3></th>
+							<th><h3 align="right">XII DETAILS</h3></th>
 						
 									<th> <p data-placement="top" data-toggle="tooltip" title="Edit" align="right"> <b>Edit</b>
 									 
@@ -157,7 +157,7 @@ used to vertically center elements, may need modification if you're not using de
 							 <tbody id="myTable">
 								<tr>
 									<td >
-									<label>X Board</label>
+									<label>XII Board</label>
 									</td>
                                     <td></td>
 									<tr>
@@ -174,7 +174,7 @@ used to vertically center elements, may need modification if you're not using de
 									</tr>
 								<tr>
 									<td>
-									<label>School</label>
+									<label>School/College</label>
 									</td>
 									 <td></td></tr>
 									
@@ -206,7 +206,7 @@ used to vertically center elements, may need modification if you're not using de
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
 					<h4 class="modal-title custom_align" id="Heading">
-						<center>X Details</center>
+						<center>XII Details</center>
 					</h4>
 				</div>
 				<div class="modal-body">
@@ -217,9 +217,9 @@ used to vertically center elements, may need modification if you're not using de
 							<tbody>
 								<tr id="row1">
 		<tr>
-        <td><b>X Board</b></td>
+        <td><b>XII Board</b></td>
         <td>
-        	 <input list="boards" name="board" class="form-control" placeholder="X Board">
+        	 <input list="boards" name="board" class="form-control" placeholder="XII Board">
   				<datalist id="boards">
   
 			    <option value="CBSC">
@@ -253,8 +253,8 @@ used to vertically center elements, may need modification if you're not using de
 				  </datalist>
 					 </tr>
         <tr>
-        <td><b>School </b></td>
-        <td><input type="text" class="form-control" id="dob"  placeholder="Enter School"></td>
+        <td><b>School/College </b></td>
+        <td><input type="text" class="form-control" id="dob"  placeholder="Enter School/College"></td>
         </tr>
         <tr>
           </tr>
