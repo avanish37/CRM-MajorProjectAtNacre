@@ -11,11 +11,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900" 
 	rel="stylesheet" type="text/css">
 
-	<link rel="stylesheet" href="css/animate.css">
 	<!-- Custom Stylesheet -->
 	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/mod.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min1.css" rel="stylesheet">
+    
+    
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
@@ -37,13 +40,28 @@
 			<div class="modal-footer">
 			<button type="submit" class="btn btn-success btn-primary">Sign In</button>
 			</div>
-			<a href=""><i>FORGOT PASSWORD</i></a>
+			<a href="#openModal"><i>FORGOT PASSWORD</i></a>
 				</div>
 			</form>
 			</div>
 			
 		</div>
 	
-</body>
+<!-- pop up to forgot password -->
 
-</html>
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<div>
+		<h5>Recover Password</h5>
+		</div>
+		<form action="" method="post">
+    	<input class="form-control" id="userMail" name="userMail" placeholder="Enter YOUR E-MAIL" type="email" required><br>
+        <button type="submit" class="btn btn-success btn-primary">SUBMIT</button>
+       
+        </form>
+	</div>
+</div>
+ 
+
+</html>		

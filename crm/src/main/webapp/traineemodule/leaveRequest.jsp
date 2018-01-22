@@ -32,9 +32,46 @@
 <jsp:include page="../commons/traineeHeader.jsp"/>
 <div class="container">
 
-LEAVE REQUEST
+<center><h3 style="color: rgb(65, 86, 102)">REQUEST FOR LEAVE</h3></center>
 
 
+<form id="contactForm" method="post" class="form-horizontal">
+    <div class="form-group">
+        <label class="col-md-3 control-label">Subject:</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" name="fullName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-3 control-label">From-Date:</label>
+        <div class="col-md-6">
+            <input type="date" class="form-control" name="fromDate" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-3 control-label">To-Date:</label>
+        <div class="col-md-6">
+            <input type="date" class="form-control" name="toDate" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-3 control-label">Description</label>
+        <div class="col-md-6">
+            <textarea class="form-control" name="content" rows="5"></textarea>
+        </div>
+    </div>
+    <!-- #messages is where the messages are placed inside -->
+    <div class="form-group">
+        <div class="col-md-9 col-md-offset-3">
+            <div id="messages"></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-9 col-md-offset-3">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </div>
+</form>
 
 
 </div>
