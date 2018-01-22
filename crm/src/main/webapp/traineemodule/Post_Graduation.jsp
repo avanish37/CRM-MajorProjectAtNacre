@@ -277,7 +277,7 @@ used to vertically center elements, may need modification if you're not using de
     <tr>
         <td><b>Address </b></td>
         <td>
-        <textarea rows="1" cols="20" name="address" class="form-control" placeholder="Enter Address"></textarea>
+        <textarea rows="2" cols="20" name="address" class="form-control" placeholder="Enter Address"></textarea>
         </td>
   	 </tr>
          <tr>
