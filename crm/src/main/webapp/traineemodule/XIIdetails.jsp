@@ -104,8 +104,8 @@ used to vertically center elements, may need modification if you're not using de
 	<script type="text/javascript" src="functions.js"></script>
 
  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
- -->
 
+ -->
 </head>
 
 <body>
@@ -124,10 +124,10 @@ used to vertically center elements, may need modification if you're not using de
 		<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<ul class="nav navbar-nav">
-			<li><a href="academic-info.jsp">X Details</a></li>
-			  <li><a href="XIIdetails.jsp" >XII Details</a></li>
+			<li ><a href="academic-info.jsp">X Details</a></li>
+			  <li class="active"><a href="XIIdetails.jsp" >XII Details</a></li>
 		    <li><a href="Graduation.jsp">Graduation Details</a></li>
-			  <li class="active"><a href="Post_Graduation.jsp">Post Graduation</a></li>
+			  <li><a href="Post_Graduation.jsp">Post Graduation</a></li>
 		    </ul>
 		</div>
 		</nav>
@@ -143,7 +143,7 @@ used to vertically center elements, may need modification if you're not using de
 
 						<table class="table">
 						<thead>
-							<th><h3 align="right">POST GRADUATION </h3></th>
+							<th><h3 align="right">XII DETAILS</h3></th>
 						
 									<th> <p data-placement="top" data-toggle="tooltip" title="Edit" align="right"> <b>Edit</b>
 									 
@@ -157,33 +157,27 @@ used to vertically center elements, may need modification if you're not using de
 							 <tbody id="myTable">
 								<tr>
 									<td >
-									<label>Graduation Type</label>
+									<label>XII Board</label>
 									</td>
                                     <td></td>
 									<tr>
 									<td >
-									<label>Specialization</label>
+									<label>Medium</label>
 									</td>
                                        <td></td></tr>
 									
 								<tr>
 									<td>
-									<label>College</label>
+									<label>Year</label>
 									</td>
                                      <td></td>
 									</tr>
 								<tr>
 									<td>
-									<label>University</label>
+									<label>School/College</label>
 									</td>
 									 <td></td></tr>
 									
-								<tr>
-									<td>
-									<label>Year</label>
-									</td>
-                                      <td></td>
-									</tr>
 								<tr>
 									<td>
 									<label>Marks</label>
@@ -212,7 +206,7 @@ used to vertically center elements, may need modification if you're not using de
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
 					<h4 class="modal-title custom_align" id="Heading">
-						<center>Post Graduation</center>
+						<center>XII Details</center>
 					</h4>
 				</div>
 				<div class="modal-body">
@@ -223,50 +217,30 @@ used to vertically center elements, may need modification if you're not using de
 							<tbody>
 								<tr id="row1">
 		<tr>
-        <td><b>PostGraduation Type</b></td>
+        <td><b>XII Board</b></td>
         <td>
-        	 <input list="graduation" name="grad" class="form-control" placeholder="Graduation">
-  				<datalist id="graduation">
+        	 <input list="boards" name="board" class="form-control" placeholder="XII Board">
+  				<datalist id="boards">
   
-			    <option value="M.Tech">
-			    <option value="msc">
-			    <option value="MCA">
+			    <option value="CBSC">
+			    <option value="SSC">
+			    <option value="SCHOOL">
+			    <option value="IBSC">
 			    
   				</datalist>
 		</td>   
         </tr>
        
         <tr>
-        <td><b>Specialization </b></td>
-        <td><input list="specialization" name="Specialization" class="form-control" placeholder="Specialization">
-  				<datalist id="specialization">
-    				<option value="ECE">
-    				<option value="CSE">
-    				<option value="EEE">
-    				<option value="COMPUTERS">
+        <td><b>Medium </b></td>
+        <td><input list="medium" name="medium" class="form-control" placeholder="Medium">
+  				<datalist id="medium">
+    				<option value="English">
+    				<option value="Hindhi">
+    				<option value="Telugu">
+    				<option value="Tamil">
    				</datalist>	
   	 </tr>
-  	 <tr>
-        <td><b>College </b></td>
-        <td><input list="college" name="College" class="form-control" placeholder="College">
-  				<datalist id="college">
-    				<option value="Jits">
-    				<option value="Bits">
-    				<option value="CBIT">
-    				<option value="VBIT">
-   				</datalist>	
-  	 </tr>
-  	 <tr>
-        <td><b>University </b></td>
-        <td><input list="university" name="University" class="form-control" placeholder="University">
-  				<datalist id="university">
-    				<option value="JNTUH">
-    				<option value="KU">
-    				<option value="JNTUK">
-    				<option value="JNTUA">
-   				</datalist>	
-  	 </tr>
-    
          <tr>
         <td><b>Year</b></td>
         <td><input list="year" name="year" class="form-control" placeholder="Year">
@@ -278,7 +252,12 @@ used to vertically center elements, may need modification if you're not using de
 				    
 				  </datalist>
 					 </tr>
-        
+        <tr>
+        <td><b>School/College </b></td>
+        <td><input type="text" class="form-control" id="dob"  placeholder="Enter School/College"></td>
+        </tr>
+        <tr>
+          </tr>
         <tr>
         <td><b>Marks</b></td>
         <td><input type="text" class="form-control" id="pin"  placeholder="Enter Marks"></td>   
