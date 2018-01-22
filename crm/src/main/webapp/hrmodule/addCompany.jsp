@@ -56,7 +56,11 @@
         </tr>
         <tr>
         <td><b>Technology </b></td>
-        <td><input type="text" class="form-control" id="technology"></td>
+        <td><select class="form-control" id="technology">
+        <option>JAVA</option>
+ 		<option>.NET</option>
+        </select>
+        </td>
         </tr>
         <tr>
         <td><b>Criteria </b></td>
@@ -70,7 +74,7 @@
         <option>Batch 46</option>
         <option>Batch 47</option>
         <option>Batch 48</option>
-      </select></td>
+      	</select></td>
         </tr>
      <tr><td colspan="2">
      <center><button type="button" class="btn btn-primary">Save</button></center> </td>

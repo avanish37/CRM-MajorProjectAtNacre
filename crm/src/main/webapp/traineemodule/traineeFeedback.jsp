@@ -23,7 +23,7 @@
            <link rel="stylesheet" href="../css/notification.css">
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet" href="../css/mCustomScrollbar.min.css">
-	<!--===============================================================================================-->
+<!--===============================================================================================-->
 <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
 <!--===============================================================================================-->
 <link rel="stylesheet" type="text/css"
@@ -60,7 +60,7 @@
 				</select><br> <br>
 
 				<div class="wrap-input1 validate-input"
-					data-validate="Message is required">
+					data-validate="Message is required"><br>
 					<textarea class="input1" name="message" placeholder="Description"></textarea>
 					<span class="shadow-input1"></span>
 				</div>
