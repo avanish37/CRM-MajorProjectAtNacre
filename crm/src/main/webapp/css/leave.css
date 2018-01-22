@@ -1,0 +1,15 @@
+body{
+	width: 100%;
+}
+.main-div{
+	margin: 20px ;
+	width: 40%;
+}
+.form{
+	border: 1px solid gainsboro;
+    padding: 20px;
+    border-radius: 3px;
+}
+.description{
+	resize: none;
+}
