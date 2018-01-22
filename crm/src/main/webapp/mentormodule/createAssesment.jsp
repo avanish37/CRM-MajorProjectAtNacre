@@ -112,7 +112,6 @@
 										placeholder="Enter Type (Objective/Descriptive)"></td>
 								</tr>
 								<tr>
-								
 									<td><b>Full Marks </b></td>
 									<td><input type="number" class="form-control" id="fm"
 										placeholder="Enter Full Marks"></td>
