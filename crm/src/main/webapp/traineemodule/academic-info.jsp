@@ -201,7 +201,7 @@ used to vertically center elements, may need modification if you're not using de
 		aria-labelledby="edit" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header" style="background-color: cyan">
+				<div class="modal-header" style="background-color: ">
 					<button type="button" class="close" data-dismiss="modal"aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
 					<h4 class="modal-title custom_align" id="Heading">
 						<center>X Details</center>

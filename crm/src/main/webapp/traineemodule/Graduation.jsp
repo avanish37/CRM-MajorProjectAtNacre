@@ -190,7 +190,7 @@ used to vertically center elements, may need modification if you're not using de
 									</tr>
 								<tr>
 									<td>
-									<label>Marks</label>
+									<label>Percentage</label>
 									</td>
                                       <td></td>
 									</tr>
