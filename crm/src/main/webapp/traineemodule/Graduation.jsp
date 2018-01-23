@@ -4,8 +4,7 @@
 <html>
 <head>
 <title>Trainee Academic Info</title>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
  <!-- jQuery  -->
@@ -119,7 +118,7 @@ used to vertically center elements, may need modification if you're not using de
 
 			<div class="panel-group" align="center">
 
-  <div class="panel panel-default" style=" width: 60%;">
+  <div class="panel panel-default" style=" width: 70%;">
     <div class="panel-header">	
 		<nav class="navbar navbar-default">
 		<div class="container-fluid">
@@ -217,7 +216,7 @@ used to vertically center elements, may need modification if you're not using de
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
 					<h4 class="modal-title custom_align" id="Heading">
-						<center>Graduation Details</center>
+						<div><center>Graduation Details</center></div>
 					</h4>
 				</div>
 				<div class="modal-body">

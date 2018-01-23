@@ -119,7 +119,7 @@ used to vertically center elements, may need modification if you're not using de
 
 			<div class="panel-group" align="center">
 
-  <div class="panel panel-default" style=" width: 60%;">
+  <div class="panel panel-default" style=" width: 70%;">
     <div class="panel-header">	
 		<nav class="navbar navbar-default">
 		<div class="container-fluid">
@@ -261,7 +261,7 @@ used to vertically center elements, may need modification if you're not using de
 					 </tr>
         <tr>
         <td><b>School/College </b></td>
-        <td><input type="text" class="form-control" id="dob"  placeholder="Enter School/College"></td>
+        <td><input type="text" class="form-control"   placeholder="Enter School/College"></td>
         </tr>
         <tr>
           </tr>
@@ -273,7 +273,7 @@ used to vertically center elements, may need modification if you're not using de
   	 </tr>
         <tr>
         <td><b>Percentage</b></td>
-        <td><input type="text" class="form-control" id="pin"  placeholder="Enter Percentage"></td>   
+        <td><input type="text" class="form-control"   placeholder="Enter Percentage"></td>   
         </tr>
      <tr><td colspan="2" align="center">
      

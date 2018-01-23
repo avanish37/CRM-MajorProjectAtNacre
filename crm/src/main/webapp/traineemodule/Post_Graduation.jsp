@@ -119,7 +119,7 @@ used to vertically center elements, may need modification if you're not using de
 
 			<div class="panel-group" align="center">
 
-  <div class="panel panel-default" style=" width: 60%;">
+  <div class="panel panel-default" style=" width: 70%;">
     <div class="panel-header">	
 		<nav class="navbar navbar-default">
 		<div class="container-fluid">

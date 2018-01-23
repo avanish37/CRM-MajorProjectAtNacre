@@ -117,7 +117,7 @@ used to vertically center elements, may need modification if you're not using de
 
 			<div class="panel-group" align="center">
 
-  <div class="panel panel-default" style=" width: 60%;">
+  <div class="panel panel-default" style=" width: 70%;">
     <div class="panel-header">	
 		<nav class="navbar navbar-default">
 		<div class="container-fluid">
@@ -129,7 +129,7 @@ used to vertically center elements, may need modification if you're not using de
 		    </ul>
 		</div>
 		</nav>
-		<div class="panel-body"   id="mainDiv" style="width:80%;">
+		<div class="panel-body"   id="mainDiv" style="width:100%;">
 		  
 	
 				
@@ -146,7 +146,7 @@ used to vertically center elements, may need modification if you're not using de
 									<th> <p data-placement="top" data-toggle="tooltip" title="Edit" align="right"> <b>Edit</b>
 									 
 											<button class="btn btn-primary btn-xs" data-title="Edit"
-												data-toggle="modal" data-target="#edit" style="width: 68px;">
+												data-toggle="modal" data-target="#edit" style="width: 60px;">
 												<span class="glyphicon glyphicon-pencil"></span>
 											</button>
 											</p>
@@ -178,7 +178,7 @@ used to vertically center elements, may need modification if you're not using de
 									
 								<tr>
 									<td>
-									<label>Marks</label>
+									<label>Percentage</label>
 									</td>
                                       <td></td>
 									</tr>
@@ -201,7 +201,7 @@ used to vertically center elements, may need modification if you're not using de
 		aria-labelledby="edit" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header" style="background-color: cyan">
 					<button type="button" class="close" data-dismiss="modal"aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
 					<h4 class="modal-title custom_align" id="Heading">
 						<center>X Details</center>
@@ -209,8 +209,9 @@ used to vertically center elements, may need modification if you're not using de
 				</div>
 				<div class="modal-body">
 					<div class="form-group">
-						<table class="table table-striped table-bordered table-list">
 					<form action="" method="">
+						<table class="table table-striped table-bordered table-list">
+					
 								
 							<tbody>
 								<tr id="row1">
@@ -262,16 +263,15 @@ used to vertically center elements, may need modification if you're not using de
         <td><b>Percentage</b></td>
         <td><input type="text" class="form-control"   placeholder="Enter Marks"></td>   
         </tr>
-     <tr><td colspan="2" align="center">
-     
-     
-     <button type="button" class="btn btn-primary">Save</button>
+     <tr>
+     <td colspan="2" align="center">
+      <button type="button" class="btn btn-primary">Save</button>
       </td>
      </tr>
 												</tbody>
-												</form>
+										
 						</table>
-						
+								</form>
 					</div>
 				</div>
 				 
