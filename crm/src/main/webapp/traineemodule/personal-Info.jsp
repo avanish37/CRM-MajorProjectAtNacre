@@ -17,6 +17,7 @@
         <script src="../js/concat.min.js"></script>
 <!-- Our Custom CSS -->
 <link rel="stylesheet" href="../css/footer.css">
+
 <!-- Bootstrap CSS-->
 <link rel="stylesheet" href="../css/bootstrap.min.css">
         <!-- Our Custom CSS -->
@@ -167,29 +168,15 @@ used to vertically center elements, may need modification if you're not using de
 									</tr>
 								<tr>
 									<td>
-									<label>Country</label>
-									</td>
-									 <td></td>
-									</tr>
-								<tr>
-									<td>
-									<label>State</label>
+									<label>Permanent Address</label>
 									</td>
 									 <td></td>
 								</tr>
 								<tr>
 									<td>
-									<label>City</label>
+									<label>Present Address</label>
 									</td>
 									 <td></td>
-								
-								</tr>
-								<tr>
-									<td>
-									<label>Pincode</label>
-									</td>
-									 <td></td>
-									
 								</tr>
 								
 							</tbody>
@@ -242,43 +229,117 @@ used to vertically center elements, may need modification if you're not using de
        <label> <input type="radio"  id="gender" name="gender" checked="checked">Female
        <input type="radio" id="gender" name="gender">Male</label></td>
         </tr>
-        <tr>
-        <td><b>Country </b></td>
-        <td>
-  <select class="form-control" id="sel1">
-  <option>--select--</option>
-    <option>India</option>
-    <option>Japan</option>
-    <option>USA</option>
-    <option>Australia</option>
-  </select></td>
-        </tr>
-        <tr>
-        <td><b>State</b></td>
-        <td><select  class="form-control" id="sel2">
-        <option>--select--</option>
-        <option>AP</option>
-        <option>Telengana</option>
-        <option>Tamilnadu</option>
-        <option>Karnataka</option>
-        <option>Kerala</option>
-      </select></td>
-        </tr>
-         <tr>
-        <td><b>City</b></td>
-        <td><select  class="form-control" id="sel3">
-         <option>--select--</option>
-        <option>Hyderabad</option>
-        <option>Chennai</option>
-        <option>Bangalore</option>
-        <option>Mumbai</option>
-        <option>Noida</option>
-      </select></td>
-        </tr>
-        <tr>
-        <td><b>Pincode</b></td>
-        <td><input type="text" class="form-control" id="pin"  placeholder="Enter pincode"></td>   
-        </tr>
+      <tr>
+     <td colspan="2">
+      <div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="accordion-toggle" data-toggle="collapse"
+									data-parent="#accordion" href="#collapseOne"> Permanent Address </a>
+							</h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse">
+							<div class="panel-body">
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="text">Country</label>
+									<div class="col-sm-8">
+										<!-- Content -->
+									</div>
+								</div>
+
+								<br> <br>
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="text">State</label>
+									<div class="col-sm-8">
+										<!-- Content -->
+									</div>
+								</div>
+								<br> <br>
+
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="text">City</label>
+									<div class="col-sm-8">
+										<!-- Content -->
+									</div>
+								</div>
+								<br> <br>
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="text">Street</label>
+									<div class="col-sm-8">
+										<!-- Content -->
+									</div>
+								</div>
+								<br> <br>
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="text">Pincode
+										</label>
+									<div class="col-sm-8">
+										<!-- Content -->
+									</div>
+								</div>
+							
+							</div>
+						</div>
+					</div>
+      
+      </div>
+      </td>
+      </tr>
+      <tr><td colspan="2">
+      <div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="accordion-toggle" data-toggle="collapse"
+									data-parent="#accordion" href="#collapseTwo"> Present Address</a>
+							</h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse">
+							<div class="panel-body">
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="text">Country</label>
+									<div class="col-sm-8">
+										<!-- Content -->
+									</div>
+								</div>
+
+								<br> <br>
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="text">State</label>
+									<div class="col-sm-8">
+										<!-- Content -->
+									</div>
+								</div>
+								<br> <br>
+
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="text">City</label>
+									<div class="col-sm-8">
+										<!-- Content -->
+									</div>
+								</div>
+								<br> <br>
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="text">Street</label>
+									<div class="col-sm-8">
+										<!-- Content -->
+									</div>
+								</div>
+								<br> <br>
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="text">Pincode
+										</label>
+									<div class="col-sm-8">
+										<!-- Content -->
+									</div>
+								</div>
+							
+							</div>
+						</div>
+					</div>
+      </td>
+      </tr>
+      
      <tr><td colspan="2" align="center">
      
      
