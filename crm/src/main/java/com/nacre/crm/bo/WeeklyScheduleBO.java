@@ -1,6 +1,6 @@
 package com.nacre.crm.bo;
 
-public class TraineeWeeklyScheduleBO {
+public class WeeklyScheduleBO {
 	/*
 	 * @Author 
 	 * Sachin
