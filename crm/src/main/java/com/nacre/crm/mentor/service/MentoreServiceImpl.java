@@ -4,6 +4,14 @@ package com.nacre.crm.mentor.service;
  * Nikhil
  * MentorServiceImpl
  */
-public class MentoreServiceImpl {
+public class MentoreServiceImpl implements MentorService{
 
+	//Uttam Keshri
+	@Override
+	public void gettingTechnology()
+	{
+		
+	}
+	
+	
 }
