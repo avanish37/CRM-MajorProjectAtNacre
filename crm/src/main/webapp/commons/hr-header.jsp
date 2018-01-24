@@ -16,6 +16,7 @@
 			<li><a href="addTrainees.jsp">Add Trainees</a></li>
 			<li><a href="addMentors.jsp">Add Mentors</a></li>
 			<li><a href="addCompany.jsp">Add Company Info</a></li>
+			<li><a href="assignBatch.jsp">Assign Batch To Mentor</a></li>
 		</ul>
 
 
@@ -54,14 +55,15 @@
                     <h3>Notifications</h3>
                      <div style="height:300px;">5555555</div>
                     <div class="seeAll">
-						<a href="recruitmentInfo.jsp">See All</a>
+						<a href="hrNotificationInfo.jsp">See All</a>
 					</div>
                 </div>
             </li>
             
 				
 					<li><a href="#myModal" data-toggle="modal" data-target="#myModal">Change Password</a></li>
-					<li><a href="#">LogOut</a></li>
+					
+					<li><a href="logout.jsp">LogOut</a></li>
 				</ul>
 			</div>
 		</div>
@@ -161,7 +163,7 @@
         });
 
         $('#notifications').click(function () {
-            return false;       // DO NOTHING WHEN CONTAINER IS CLICKED.
+            return true;       //  WHEN CONTAINER IS CLICKED.
         });
     });
 </script>

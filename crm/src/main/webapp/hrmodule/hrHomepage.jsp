@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page isELIgnored="false" language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
@@ -31,7 +31,7 @@
 <jsp:include page="../commons/hr-header.jsp"/>
 <div class="container">
 	HR HOME PAGE
-	
+	 
 </div>
 <footer>
 <jsp:include page="../commons/footer.jsp"/>

@@ -14,6 +14,13 @@
 		<ul class="list-unstyled components">
 			
 			<li><a href="mentorHome.jsp">HOME</a></li>
+			<li class="active"><a href="#profileDetails" data-toggle="collapse"
+				aria-expanded="false">PROFILE DETAILS</a>
+				<ul class="collapse list-unstyled" id="profileDetails">
+					<li><a href="personal-Info.jsp">Personal Info</a></li>
+					<li><a href="academic-info.jsp">Academic Info</a></li>
+					<li><a href="technical-info.jsp">Technical Info</a></li>
+				</ul></li>
 			<li><a href="prepareSchedule.jsp">PREPARE SCHEDULE</a></li>
 			<li class="active"><a href="#assesment" data-toggle="collapse"
 				aria-expanded="false">ASSESSMENT</a>
@@ -52,7 +59,7 @@
 				<ul class="nav navbar-nav navbar-right">
 				
 					<li><a href="#myModal" data-toggle="modal" data-target="#myModal">Change Password</a></li>
-					<li><a href="#">LogOut</a></li>
+					<li><a href="logout.jsp">LogOut</a></li>
 				</ul>
 			</div>
 		</div>

@@ -24,7 +24,6 @@
 			<li> <a href="#viewSchedule"
 				data-toggle="collapse" aria-expanded="false">VIEW SCHEDULE</a>
 				<ul class="collapse list-unstyled" id="viewSchedule">
-					<li><a href="todaySchedule.jsp">Today's Schedule</a></li>
 					<li><a href="weeklySchedule.jsp">Weekly Schedule</a></li>
 					<li><a href="examSchedule.jsp">Exam Schedule</a></li>
 				</ul></li>
@@ -93,7 +92,7 @@
                 </div>
             </li>
 					<li><a href="#myModal" data-toggle="modal" data-target="#myModal">Change Password</a></li>
-					<li><a href="#">LogOut</a></li>
+					<li><a href="logout.jsp">LogOut</a></li>
 				</ul>
 			</div>
 		</div>
@@ -192,7 +191,7 @@
         });
 
         $('#notifications').click(function () {
-            return false;       // DO NOTHING WHEN CONTAINER IS CLICKED.
+            return true;       // WHEN CONTAINER IS CLICKED.
         });
     });
 </script>
