@@ -10,6 +10,6 @@ import java.util.Map;
  */
 public interface MentorDao {
 
-	public Map<String,String> fetchTechnology() throws SQLException;
+	
 	
 }
