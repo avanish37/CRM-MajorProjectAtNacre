@@ -62,7 +62,8 @@
             
 				
 					<li><a href="#myModal" data-toggle="modal" data-target="#myModal">Change Password</a></li>
-					<li><a href="#">LogOut</a></li>
+					
+					<li><a href="logout.jsp">LogOut</a></li>
 				</ul>
 			</div>
 		</div>

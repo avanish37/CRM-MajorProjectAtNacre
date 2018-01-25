@@ -10,4 +10,5 @@ public class SqlQueryConstraints {
 	public static final String MENTOR_UNAVAILABLE="MENTOR_UNAVAILABLE";
 	public static final String REPORTED="REPORTED";
 
+
 }

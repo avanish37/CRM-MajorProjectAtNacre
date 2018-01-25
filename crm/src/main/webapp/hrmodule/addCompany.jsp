@@ -30,7 +30,11 @@
 <body>
 <jsp:include page="../commons/hr-header.jsp"/>
 <!--Company info by jeevan  -->
+<<<<<<< HEAD
 <div align="center"><h2>ADD COMPANY INFORMATION</h2>
+=======
+<div align="center"><h2>Company Recruitment Information</h2>
+>>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
 </div>
 
 <div align="center">

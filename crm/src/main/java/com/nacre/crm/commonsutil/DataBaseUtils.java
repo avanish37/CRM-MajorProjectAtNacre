@@ -18,6 +18,7 @@ public class DataBaseUtils implements ServletRequestListener {
         
     }
 
+<<<<<<< HEAD
 
     public void requestInitialized(ServletRequestEvent arg0)  { 	
 
@@ -36,5 +37,22 @@ public class DataBaseUtils implements ServletRequestListener {
     		
 
 
+=======
+    public void requestInitialized(ServletRequestEvent arg0)  { 	
+
+    			try {
+					con = DataBaseLogic.datasource.getConnection();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+
+    		}// contextInitialized(ServletContextEvent event)
+
+    		public static Connection getConnection() {
+    			return con;
+    		}
+    		
+>>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
     }
 	

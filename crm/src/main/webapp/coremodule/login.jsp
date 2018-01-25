@@ -17,10 +17,57 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min1.css" rel="stylesheet">
+<<<<<<< HEAD
     
     
 
+=======
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"> </script>
+    
+>>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	
+	
+	<script>
+  
+  $(document).ready(function() {
+    $('#form1').bootstrapValidator({
+        container: '#messages',
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            password: {
+                validators: {
+                    notEmpty: {
+                        message: 'The full name is required and cannot be empty'
+                    }
+                }
+            },
+            username: {
+                validators: {
+                    notEmpty: {
+                        message: 'The email address is required and cannot be empty'
+                    },
+                    emailAddress: {
+                        message: 'The email address is not valid'
+                    }
+                }
+	            },
+	            
+        }
+    });
+});
+
+</script>
+	
+	
+	
+	
+	
 </head>
 
 <body>
@@ -29,13 +76,13 @@
 			<h1 id="title" class="hidden"><span id="logo">NACRE SOFTWARE SERVICES</span></h1>
 		</div>
 		<div class="login-box animated fadeInUp">
-			<form>
+			<form id="form1" method="get" action="login">
 			<div class="modal-body">
           	<div class="form-group">
-			<input class="form-control" placeholder="UserName" type="text" id="username">
+			<input class="form-control" placeholder="UserName" type="text" id="username" name="username"/>
 			</div>
 			<div class="form-group">
-			<input class="form-control" placeholder="Password" type="password" id="password">
+			<input class="form-control" placeholder="Password" type="password" id="password" name="password"/>
 			</div>
 			<div class="modal-footer">
 			<button type="submit" class="btn btn-success btn-primary">Sign In</button>

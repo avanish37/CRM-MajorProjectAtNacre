@@ -24,13 +24,6 @@
           <link rel="stylesheet" href="../css/notification.css">
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet" href="../css/mCustomScrollbar.min.css">
-         <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
-		rel='stylesheet' type='text/css'>
-         -->
-<<<<<<< HEAD
-=======
-         <script type="text/javascript" src="<%=application.getContextPath() %>/js/academic-info.js"></script>
->>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
         <script type="text/javascript">
 function edit_row(no)
 {
@@ -38,7 +31,9 @@ function edit_row(no)
 	document.getElementById("edit_button"+no).style.display="none";
 	document.getElementById("save_button"+no).style.display="block";
     var des=document.getElementById("des"+no);
-	}
+	var des_data=des.innerHTML;
+	des.innerHTML="<textarea cols='20' rows='1' id=' des_text"+no+"' value='"+des_data+"'>";
+}
 
 function save_row(no)
 {
@@ -115,25 +110,28 @@ used to vertically center elements, may need modification if you're not using de
 
 <body>
 <jsp:include page="../commons/traineeHeader.jsp"/>
+<link
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
+		rel='stylesheet' type='text/css'>
 
 	<div class="container">
 		<div class="row">
 
 			<div class="panel-group" align="center">
 
-  <div class="panel panel-default" style=" width: 70%;">
+  <div class="panel panel-default" style=" width: 60%;">
     <div class="panel-header">	
 		<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<ul class="nav navbar-nav">
-			<li class="active"><a href="academic-info.jsp">X Details</a></li>
-			  <li><a href="XIIdetails.jsp" >XII Details</a></li>
+			<li ><a href="academic-info.jsp">X Details</a></li>
+			  <li class="active"><a href="XIIdetails.jsp" >XII Details</a></li>
 		    <li><a href="Graduation.jsp">Graduation Details</a></li>
 			  <li><a href="Post_Graduation.jsp">Post Graduation</a></li>
 		    </ul>
 		</div>
 		</nav>
-		<div class="panel-body"   id="mainDiv" style="width:100%;">
+		<div class="panel-body"   id="mainDiv" style="width:80%;">
 		  
 	
 				
@@ -145,12 +143,12 @@ used to vertically center elements, may need modification if you're not using de
 
 						<table class="table">
 						<thead>
-							<th><h3 align="right">X DETAILS</h3></th>
+							<th><h3 align="right">XII DETAILS</h3></th>
 						
 									<th> <p data-placement="top" data-toggle="tooltip" title="Edit" align="right"> <b>Edit</b>
 									 
 											<button class="btn btn-primary btn-xs" data-title="Edit"
-												data-toggle="modal" data-target="#edit" style="width: 60px;">
+												data-toggle="modal" data-target="#edit" style="width: 68px;">
 												<span class="glyphicon glyphicon-pencil"></span>
 											</button>
 											</p>
@@ -159,7 +157,7 @@ used to vertically center elements, may need modification if you're not using de
 							 <tbody id="myTable">
 								<tr>
 									<td >
-									<label>X Board</label>
+									<label>XII Board</label>
 									</td>
                                     <td></td>
 									<tr>
@@ -176,13 +174,13 @@ used to vertically center elements, may need modification if you're not using de
 									</tr>
 								<tr>
 									<td>
-									<label>School</label>
+									<label>School/College</label>
 									</td>
 									 <td></td></tr>
 									
 								<tr>
 									<td>
-									<label>Percentage</label>
+									<label>Marks</label>
 									</td>
                                       <td></td>
 									</tr>
@@ -205,31 +203,29 @@ used to vertically center elements, may need modification if you're not using de
 		aria-labelledby="edit" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header" style="background-color: ">
+				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
 					<h4 class="modal-title custom_align" id="Heading">
-						<center>X Details</center>
+						<center>XII Details</center>
 					</h4>
 				</div>
 				<div class="modal-body">
-<<<<<<< HEAD
 					<div class="form-group">
-					<form action="" method="">
 						<table class="table table-striped table-bordered table-list">
-					
+					<form action="" method="">
 								
 							<tbody>
 								<tr id="row1">
 		<tr>
-        <td><b>X Board</b></td>
+        <td><b>XII Board</b></td>
         <td>
-        	 <input list="boards" name="board" class="form-control" placeholder="X Board">
+        	 <input list="boards" name="board" class="form-control" placeholder="XII Board">
   				<datalist id="boards">
   
-			    <option value="CBSC"></option>
-			    <option value="SSC"></option>
-			    <option value="SCHOOL"></option>
-			    <option value="IBSC"></option>
+			    <option value="CBSC">
+			    <option value="SSC">
+			    <option value="SCHOOL">
+			    <option value="IBSC">
 			    
   				</datalist>
 		</td>   
@@ -239,125 +235,48 @@ used to vertically center elements, may need modification if you're not using de
         <td><b>Medium </b></td>
         <td><input list="medium" name="medium" class="form-control" placeholder="Medium">
   				<datalist id="medium">
-    				<option value="English"></option>
-    				<option value="Hindhi"></option>
-    				<option value="Telugu"></option>
-    				<option value="Tamil"></option>
+    				<option value="English">
+    				<option value="Hindhi">
+    				<option value="Telugu">
+    				<option value="Tamil">
    				</datalist>	
-   				</td>
   	 </tr>
          <tr>
         <td><b>Year</b></td>
         <td><input list="year" name="year" class="form-control" placeholder="Year">
 				  <datalist id="year">
-				    <option value="2011"></option>
-				    <option value="2012"></option>
-				    <option value="2013"></option>
-				    <option value="2014"></option>
+				    <option value="2011">
+				    <option value="2012">
+				    <option value="2013">
+				    <option value="2014">
 				    
 				  </datalist>
-				  </td>
 					 </tr>
         <tr>
-        <td><b>School </b></td>
-        <td><input type="text" class="form-control"  placeholder="Enter School"></td>
+        <td><b>School/College </b></td>
+        <td><input type="text" class="form-control" id="dob"  placeholder="Enter School/College"></td>
         </tr>
         <tr>
           </tr>
         <tr>
-        <td><b>Percentage</b></td>
-        <td><input type="text" class="form-control"   placeholder="Enter Marks"></td>   
+        <td><b>Marks</b></td>
+        <td><input type="text" class="form-control" id="pin"  placeholder="Enter Marks"></td>   
         </tr>
-     <tr>
-     <td colspan="2" align="center">
-      <button type="button" class="btn btn-primary">Save</button>
+     <tr><td colspan="2" align="center">
+     
+     
+     <button type="button" class="btn btn-primary">Save</button>
       </td>
      </tr>
 												</tbody>
-										
+												</form>
 						</table>
-								</form>
+						
 					</div>
 				</div>
 				 
 				
 			</div>
-=======
-					
-					<form action="#" method="post" name="myform">
-				<div class="form-group has-feedback">
-						<table class="table table-striped table-bordered table-list">
-					
-								
-							<tbody>
-								<tr id="row1">
-		<tr>
-        <td><b>X Board</b></td>
-        <td>
-        	 <input list="boards"  name=fname onkeyup="validateBoard()" class="form-control" placeholder="X Board">
-        	  <span id="boarderrfn" style="color: red"></span>
-  				<datalist id="boards">
-  
-			    <option value="CBSC"></option>
-			    <option value="SSC"></option>
-			    <option value="SCHOOL"></option>
-			    <option value="IBSC"></option>
-			    
-  				</datalist>
-		</td>   
-        </tr>
-       
-        <tr>
-        <td><b>Medium </b></td>
-        <td><input list="medium" name=medium  onkeyup="validateMedium()" class="form-control" placeholder="Medium">
-  				 <span id="mediumerrfn" style="color: red"></span>
-  				<datalist id="medium">
-    				<option value="English"></option>
-    				<option value="Hindhi"></option>
-    				<option value="Telugu"></option>
-    				<option value="Tamil"></option>
-   				</datalist>	
-   				</td>
-  	 </tr>
-         <tr>
-        <td><b>Year</b></td>
-        <td><input list="year" name="year"  onkeyup="validateYear()" class="form-control" placeholder="Year">
-				  <span id="yearerrfn" style="color: red"></span>
-				  <datalist id="year">
-				    <option value="2011"></option>
-				    <option value="2012"></option>
-				    <option value="2013"></option>
-				    <option value="2014"></option>
-				    
-				  </datalist>
-				  </td>
-					 </tr>
-        <tr>
-        <td><b>School </b></td>
-        <td><input type="text" class="form-control"  placeholder="Enter School"></td>
-        </tr>
-        <tr>
-          </tr>
-        <tr>
-        <td><b>Percentage</b></td>
-        <td><input type="text" class="form-control"   placeholder="Enter Marks"></td>   
-        </tr>
-        
-     <tr>
-     <td colspan="2" align="center">
-      <button type="button" class="btn btn-primary">Save</button>
-      </td>
-     </tr>
-												</tbody>
-										
-						</table>
-						</div>
-								</form>
-					
-				</div>
-				 
-				
->>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
 			
 		</div>
 		<!-- /.modal-content -->

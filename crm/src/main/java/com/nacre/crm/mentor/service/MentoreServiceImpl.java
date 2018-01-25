@@ -1,4 +1,6 @@
 package com.nacre.crm.mentor.service;
+
+
 /*
  * @Author 
  * Nikhil
@@ -6,6 +8,7 @@ package com.nacre.crm.mentor.service;
  */
 public class MentoreServiceImpl implements MentorService{
 
+<<<<<<< HEAD
 	//Uttam Keshri
 	@Override
 	public void gettingTechnology()
@@ -13,5 +16,8 @@ public class MentoreServiceImpl implements MentorService{
 		
 	}
 	
+=======
+
+>>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
 	
 }
