@@ -7,9 +7,6 @@ package com.nacre.crm.mentor.service;
  */
 public interface MentorService {
 
-<<<<<<< HEAD
 	public void gettingTechnology();
-=======
-	
->>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
+
 }

@@ -1,15 +1,13 @@
 package com.nacre.crm.mentor.controller;
 
 import java.io.IOException;
-
-import javax.security.auth.message.callback.PrivateKeyCallback.Request;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import org.apache.coyote.http11.Http11OutputBuffer;
+
 
 /**
  * @author Avanish Singh
@@ -31,9 +29,6 @@ public class MentorBatchDetailController extends HttpServlet{
 	}
 	
 	
-	
-	
-
 	@Override
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub

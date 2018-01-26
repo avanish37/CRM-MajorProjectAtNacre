@@ -1,11 +1,10 @@
 package com.nacre.crm.trainee.dao;
 
 import java.sql.Connection;
-<<<<<<< HEAD
-=======
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
->>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
+
 import java.sql.SQLException;
 
 import com.nacre.crm.commonsutil.DataBaseUtils;
@@ -17,8 +16,7 @@ import com.nacre.crm.commonsutil.DataBaseUtils;
  */
 public class TraineeDaoImpl implements TraineeDao {
 	Connection con=DataBaseUtils.getConnection();
-<<<<<<< HEAD
-=======
+
 	
 	@Override
 	public String getXBoardDetails() throws SQLException {
@@ -34,7 +32,6 @@ public class TraineeDaoImpl implements TraineeDao {
 		}
 		return xBoard;
 	}
->>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
 
 
 }

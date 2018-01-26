@@ -12,10 +12,9 @@ public class DataBaseLogic {
 
 		try {
 			Context initContext = new InitialContext();
-<<<<<<< HEAD
 
-=======
->>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
+
+
 			Context envContext = (Context) initContext.lookup("java:/comp/env");
 			System.out.println(envContext);
 

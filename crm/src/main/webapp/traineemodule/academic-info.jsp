@@ -27,10 +27,9 @@
          <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
 		rel='stylesheet' type='text/css'>
          -->
-<<<<<<< HEAD
-=======
+
          <script type="text/javascript" src="<%=application.getContextPath() %>/js/academic-info.js"></script>
->>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
+
         <script type="text/javascript">
 function edit_row(no)
 {
@@ -282,7 +281,7 @@ used to vertically center elements, may need modification if you're not using de
 				 
 				
 			</div>
-=======
+
 					
 					<form action="#" method="post" name="myform">
 				<div class="form-group has-feedback">
@@ -357,7 +356,7 @@ used to vertically center elements, may need modification if you're not using de
 				</div>
 				 
 				
->>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
+
 			
 		</div>
 		<!-- /.modal-content -->

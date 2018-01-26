@@ -17,15 +17,15 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min1.css" rel="stylesheet">
-<<<<<<< HEAD
+
     
     
 
-=======
+
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/>
   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"> </script>
     
->>>>>>> branch 'nikhil' of https://bitbucket.org/Nikhil-Nilamb/crm/src
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	
 	

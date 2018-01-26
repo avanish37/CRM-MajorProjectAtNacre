@@ -24,7 +24,7 @@
           <link rel="stylesheet" href="../css/notification.css">
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet" href="../css/mCustomScrollbar.min.css">
-<<<<<<< HEAD
+
         <script type="text/javascript">
 function edit_row(no)
 {
