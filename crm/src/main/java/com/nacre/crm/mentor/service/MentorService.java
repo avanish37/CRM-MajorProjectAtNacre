@@ -15,4 +15,5 @@ public interface MentorService {
 
 	public Map<String,String> gettingSubject() throws SQLException;
 	public ArrayList<AssismentDetailsBO> fetchAssessment() throws SQLException;
+
 }

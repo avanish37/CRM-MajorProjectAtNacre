@@ -12,13 +12,14 @@ import com.nacre.crm.bo.AssismentDetailsBO;
 import com.nacre.crm.commonsutil.DataBaseUtils;
 import com.nacre.crm.mentor.dbutils.SqlQueryConstraints;
 
+
 /*
  * @Author 
  * Nikhil
  * MentorDaoImpl
  */
 public class MentorDaoImpl implements MentorDao {
-	
+
 	Connection con=DataBaseUtils.getConnection();
 
 	@Override
@@ -73,6 +74,6 @@ public class MentorDaoImpl implements MentorDao {
 		
 		return list;
 		
-	}
-	
+	}	
+
 }

@@ -19,7 +19,6 @@ public class MentoreServiceImpl implements MentorService {
 	@Override
 	public Map<String, String> gettingSubject() throws SQLException {
 		MentorDao dao = null;
-
 		dao = new MentorDaoImpl();
 		Map<String, String> map = dao.fetchSubject();
 		return map;
@@ -31,5 +30,4 @@ public class MentoreServiceImpl implements MentorService {
 		dao = new MentorDaoImpl();		
 		return dao.fetchAssessment();
 	}
-
 }
