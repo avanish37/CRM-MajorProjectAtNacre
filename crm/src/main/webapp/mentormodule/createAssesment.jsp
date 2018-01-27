@@ -27,6 +27,7 @@
 <script>
 $(document).ready(function(){
 	
+	
 	$("#add-row").click(function(){
 		$.ajax({
 			url :'../fetchSubjects',
