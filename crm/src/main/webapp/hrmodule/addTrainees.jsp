@@ -264,8 +264,7 @@ function myFunction() {
 				</div>
 				<div class="modal-body">
 					<div class="form-group">
-											<form>
-                       			
+						<form>		
 						<table class="table table-striped table-bordered table-list"
 							style="width: 500px;">
 							 <tbody id="myTable">
@@ -275,7 +274,11 @@ function myFunction() {
 							</tr>
 							<tr>
 							<td><b>Starting Date	:</b></td>
-							<td><b><input type="date" name="sdate"></b></td>
+							<td><b><input type="date" name="startDate"></b></td>
+							</tr>
+							<tr>
+							<td><b>Expected End Date	:</b></td>
+							<td><b><input type="date" name="endDate"></b></td>
 							</tr>
 							    <tr>
 							    <td><b>Duration		:</b></td>
