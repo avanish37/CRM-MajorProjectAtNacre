@@ -1,15 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-
 <html>
 <head>
-<title>MENTOR RECOMMENDATION</title>
+<title>Mentor Recommendation</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
- <!-- jQuery -->
+ <!-- jQuery  -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script src="../js/jquery-1.12.0.min.js"></script>
         <!-- Bootstrap Js  -->
         <script src="../js/bootstrap.min.js"></script>
@@ -21,51 +20,64 @@
 <link rel="stylesheet" href="../css/bootstrap.min.css">
         <!-- Our Custom CSS -->
         <link rel="stylesheet" href="../css/header.css">
+           <link rel="stylesheet" href="../css/notification.css">
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet" href="../css/mCustomScrollbar.min.css">
-
+<!--===============================================================================================-->
+<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+	href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="../css/util.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<!--===============================================================================================-->
 
 </head>
-<body>
-<jsp:include page="../commons/mentorHeader.jsp"/>
-<div class="container">
 
-<h2 align="center">MENTOR RECOMMENDATION</h2>
-<table class="table table-bordered">
-<tr><td>
-<label>Name</label></td>
-<td>
-<label>Reason</label>
-</td>
-<td>
-<label>Recommendation</label>
-</td>
-<tr>
-<td>Mayank</td>
-<td>Any Reason</td>
-<td>
-<select name="rec" class="form-control" id="sel1" >
-        <option>select</option>
-        <option name="rec">Shift to next batch</option>
-        <option name="rec">Terminate</option>
-        <option name="rec">Special Focus</option>
-</select></td>
-</tr>
-<tr>
-<td>Manjeet</td>
-<td>Any Reason</td>
-<td>
-<select name="rec" class="form-control" id="sel1" >
-        <option>select</option>
-        <option name="rec">Shift to next batch</option>
-        <option name="rec">Terminate</option>
-        <option name="rec">Special Focus</option>
-</select></td>
-</tr>
-</table>
-<div>
-<button style="font-size: 16px">Submit</button>
-</div>
+<body>
+<jsp:include page="../commons/traineeHeader.jsp"/>
+<div class="container">
+<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="../images/img-01.png" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form">
+				<span class="contact1-form-title"> <u>Mentor Recommendation</u>
+				</span> <br>
+				<br> <b>Name: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
+				<option value="volvo">Select</option>
+					<option value="volvo">navneet</option>
+					<option value="saab">uttam</option>
+					<option value="opel">jeevan</option></select>
+				<br>
+				<b>Reccomendation</b> &nbsp;&nbsp;<select>
+					<option value="volvo">Select</option>
+					<option value="shift">Shift to Next Batch</option>
+					<option value="termi">Terminate</option>
+					<option value="special">Special Focus</option>
+				</select><br> <br>
+
+				<div class="wrap-input1 validate-input"
+					data-validate="Message is required"><br>
+					<textarea class="input1" name="message" placeholder="Reasons"></textarea>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="container-contact1-form-btn">
+					<button class="contact1-form-btn">
+						<span> Submit <i class="fa fa-long-arrow-right"
+							aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
 </div>
 <footer>
 <jsp:include page="../commons/footer.jsp"/>
